@@ -1,7 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+export default function Navbar(){
   return (
     <nav className="navbar">
       <ul>
@@ -11,12 +9,7 @@ const Navbar = () => {
         <li>
           <Link to="/tournaments">Tournaments</Link>
         </li>
-        <li>
-          <Link to="/players">Players</Link>
-        </li>
       </ul>
     </nav>
   );
 };
-
-export default Navbar;
