@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import Tournaments from "./Pages/Tournaments";
+import Home from "../Pickleball_Vite/pickleball-frontend/pages/Home";
+import Tournaments from "../Pickleball_Vite/pickleball-frontend/pages/Tournaments";
 import Navbar from "/components/Navbar";
 import CreateTournament from '/pages/CreateTournament';
 
